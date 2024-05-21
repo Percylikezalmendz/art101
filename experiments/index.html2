@@ -1,3 +1,3 @@
 <h1 id="title">Hello World!</h1>;
-id="my-button";
+<button id="my-button" </button>
 var name = prompt("name please:");
