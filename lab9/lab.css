@@ -1,0 +1,28 @@
+/*
+   lab.js - This simple JavaScript/jQuery script uses buttons to modify some elements on the page
+
+   Requirements: jQuery must be loaded for this script to work.
+
+   Author: Percy
+   Date: 2024
+*/
+.special {
+    background-color: rgb(39, 39, 180);
+    border: dotted 50px rgb(169, 255, 205);
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+body {
+    font-family: Arial, Sans-serif;
+    color: black, 
+    background-color black blueviolet
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px soild green;
+
+}
+
