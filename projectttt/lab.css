@@ -27,6 +27,12 @@ h1 {
     font-family: 'Helvetica';
 }
 
+/* Style for name titles */
+.project h2 {
+    margin-top: 0;
+    font-family: 'Helvetica';
+}
+
 /* Style for item descriptions */
 .name p {
     margin-bottom: 0;
