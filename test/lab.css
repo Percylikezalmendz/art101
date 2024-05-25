@@ -5,6 +5,12 @@ body {
     padding: 0;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 header, footer {
     background-color: #333;
     color: #fff;
@@ -25,23 +31,27 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     padding: 10px 20px;
     display: inline-block;
 }
 
 nav ul li a:hover {
     background-color: #555;
-    color: #fff;
 }
 
 /* Main content */
 main {
-    padding: 20px;
+    padding: 20px 0;
 }
 
-section {
-    text-align: center;
+.hero {
+    background-color: #f0f0f0;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
 }
 
 .button {
@@ -58,10 +68,26 @@ section {
     background-color: #555;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+.gallery {
+    padding: 50px 0;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
