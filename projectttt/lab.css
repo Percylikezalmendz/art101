@@ -1,6 +1,6 @@
 /* When hovering over an element with the class name "name", the background color changes to light blue. */
 
-.name::backdrop {
+.name:backdrop {
     background-color: rgb(254, 252, 184);
 }
 .html {
