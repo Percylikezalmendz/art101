@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script scr="lab.css"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visually Appealing Website</title>
@@ -9,25 +8,49 @@
 </head>
 <body>
     <header>
-        <h1>My Awesome Website</h1>
+        <div class="container">
+            <h1>My Awesome Website</h1>
+        </div>
     </header>
+
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </nav>
+
     <main>
-        <section>
-            <h2>Welcome to our website!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum sapien sit amet nibh efficitur, non bibendum dolor porta.</p>
-            <a href="#" class="button">Learn More</a>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to our website!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum sapien sit amet nibh efficitur, non bibendum dolor porta.</p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <h2>Image Gallery</h2>
+                <div class="gallery-images">
+                    <!-- Add your images here -->
+                    <div class="gallery-item"><img src="image1.jpg" alt="Image 1"></div>
+                    <div class="gallery-item"><img src="image2.jpg" alt="Image 2"></div>
+                    <div class="gallery-item"><img src="image3.jpg" alt="Image 3"></div>
+                    <!-- Add more images as needed -->
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 My Awesome Website</p>
+        <div class="container">
+            <p>&copy; 2024 My Awesome Website</p>
+        </div>
     </footer>
 </body>
 </html>
