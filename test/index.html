@@ -3,54 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visually Appealing Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Awesome Website</title>
+    <link rel="stylesheet" href="lab.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>My Awesome Website</h1>
-        </div>
-    </header>
-
-    <nav>
-        <div class="container">
+        <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Your go-to place for all things awesome!</p>
+    </section>
+
+    <section class="content">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet velit sit amet nisi tincidunt vulputate non at ipsum. Nullam at massa non libero cursus consectetur. Quisque ut condimentum leo.</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Web Design</h3>
+            <p>We create stunning websites tailored to your needs.</p>
         </div>
-    </nav>
+        <div class="service">
+            <h3>Graphic Design</h3>
+            <p>From logos to branding, we've got you covered.</p>
+        </div>
+        <div class="service">
+            <h3>SEO Optimization</h3>
+            <p>Get your website noticed with our SEO strategies.</p>
+        </div>
+    </section>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h2>Welcome to our website!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum sapien sit amet nibh efficitur, non bibendum dolor porta.</p>
-                <a href="#" class="button">Learn More</a>
-            </div>
-        </section>
-
-        <section class="gallery">
-            <div class="container">
-                <h2>Image Gallery</h2>
-                <div class="gallery-images">
-                    <!-- Add your images here -->
-                    <div class="gallery-item"><img src="image1.jpg" alt="Image 1"></div>
-                    <div class="gallery-item"><img src="image2.jpg" alt="Image 2"></div>
-                    <div class="gallery-item"><img src="image3.jpg" alt="Image 3"></div>
-                    <!-- Add more images as needed -->
-                </div>
-            </div>
-        </section>
-    </main>
+    <section class="portfolio">
+        <h2>Our Portfolio</h2>
+        <!-- Images will go here -->
+    </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 My Awesome Website</p>
-        </div>
+        <p>&copy; 2024 My Awesome Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
