@@ -12,6 +12,13 @@ body {
     color: #333;
     line-height: 1.6;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
 
 header {
     background-color: #333;
@@ -37,7 +44,7 @@ nav ul li a {
     margin-bottom: 40px; /* Adjust the value to increase or decrease space */
 }
 
- footer {
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
