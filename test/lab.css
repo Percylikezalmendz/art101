@@ -6,19 +6,25 @@
 }
 
 /* Global Styles */
-body {
+.body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
-body {
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
   }
+
 
 header {
     background-color: #333;
