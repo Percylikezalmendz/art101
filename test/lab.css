@@ -34,6 +34,18 @@ header {
     text-align: center;
 }
 
+title {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 nav ul {
     list-style: none;
 }
