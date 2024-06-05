@@ -6,7 +6,7 @@
 }
 
 /* Global Styles */
-.body {
+body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     color: #333;
@@ -18,7 +18,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.content {
+content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-.names {
+names {
     margin-bottom: 30px; /* Adjust the value to increase or decrease space */
 }
 
